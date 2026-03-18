@@ -7,9 +7,7 @@ st.set_page_config(
     layout="centered"
 )
 
-.stApp > div {
-    position: relative;
-    z-index: 1;
+
 
 st.markdown("""
 <style>
