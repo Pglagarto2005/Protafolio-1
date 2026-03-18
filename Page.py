@@ -58,7 +58,7 @@ proyectos = [
     },
     {
         "Nombre": "Conversión de texto a audio",
-        "descripcion": "Pasar un texto a un audio",
+        "Descripcion": "Pasar un texto a un audio",
         "link": "https://ejemplottssantiagobotero.streamlit.app/"
     },
     {
@@ -78,7 +78,7 @@ proyectos = [
     },
     {
         "Nombre": "Traductor de voz",
-        "descripcion": "Dia algo y lo traduciremos",
+        "Descripcion": "Dia algo y lo traduciremos",
         "link": "https://traductor-etbhn56yutwgjgxmvgkcek.streamlit.app/"
     },
 ]
