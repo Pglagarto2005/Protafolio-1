@@ -2,10 +2,50 @@ import streamlit as st
 
 
 st.set_page_config(
-    page_title="Mis Proyectos - Interfaces Multimodales",
-    page_icon="💻",
+    page_title="Portafolio Interfaces Multimodales",
+    page_icon="",
     layout="centered"
 )
+
+.stApp > div {
+    position: relative;
+    z-index: 1;
+
+st.markdown("""
+<style>
+.stApp {
+    background: linear-gradient(-45deg, #ff4b1f, #ff9068, #36d1dc, #5b86e5);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.stApp::before {
+    content: "";
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: moveParticles 20s linear infinite;
+    z-index: 0;
+}
+
+@keyframes moveParticles {
+    from {transform: translate(0, 0);}
+    to {transform: translate(-50px, -50px);}
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+</style>
+""", unsafe_allow_html=True)
 
 
 st.title("💻 Portafolio de Proyectos")
@@ -14,25 +54,41 @@ st.write("Bienvenido a mi colección de trabajos de Interfaces Multimodales 🚀
 
 proyectos = [
     {
-        "nombre": "Proyecto VR - Puerta Interactiva",
-        "descripcion": "Interacción con una puerta en VR usando perilla.",
-        "link": "https://tu-link-aqui.com"
+        "Nombre":"Primera pagina Streamlit",
+        "Descripcion": "Utilizar textos, botones, marcas, listas, etc",
+        "link": "https://bananarotate.streamlit.app/"
     },
     {
-        "nombre": "Simulación de Cocina VR",
-        "descripcion": "Secuencia de interacción con ingredientes.",
-        "link": "https://tu-link-aqui.com"
+        "Nombre": "Conversión de texto a audio",
+        "descripcion": "Pasar un texto a un audio",
+        "link": "https://ejemplottssantiagobotero.streamlit.app/"
     },
     {
-        "nombre": "Señalética en VR",
-        "descripcion": "Sistema de guía visual en entorno virtual.",
-        "link": "https://tu-link-aqui.com"
-    }
+        "Nombre": "TF-IDF",
+        "Descripcion": "Es una métrica numérica que evalúa la importancia de un término",
+        "link": "https://tfxidfenesp.streamlit.app/"
+    },
+    {
+        "Nombre": "Natural Language Toolkit",
+        "Descripcion": "Una biblioteca de Python para trabajar con lenguaje humano",
+        "link": "https://lenguajenatural.streamlit.app/"
+    },
+    {
+        "Nombre": "Análisis de sentimientos",
+        "Descripcion": "Escribe algo y sabremos que emocion quieres reflejar",
+        "link": "https://whatisyouremotion.streamlit.app/"
+    },
+    {
+        "Nombre": "Traductor de voz",
+        "descripcion": "Dia algo y lo traduciremos",
+        "link": "https://traductor-etbhn56yutwgjgxmvgkcek.streamlit.app/"
+    },
 ]
 
 
 for proyecto in proyectos:
-    st.subheader(proyecto["nombre"])
-    st.write(proyecto["descripcion"])
-    st.markdown(f"[🔗 Ver proyecto]({proyecto['link']})")
-    st.write("---")
+    with st.container():
+        st.markdown(f"### {proyecto['nombre']}")
+        st.write(proyecto["descripcion"])
+        st.link_button("Ver proyecto", proyecto["link"])
+        st.write("")
