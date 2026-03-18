@@ -86,7 +86,7 @@ proyectos = [
 
 for proyecto in proyectos:
     with st.container():
-        st.markdown(f"### {proyecto['nombre']}")
-        st.write(proyecto["descripcion"])
+        st.markdown(f"### {proyecto['Nombre']}")
+        st.write(proyecto["Descripcion"])
         st.link_button("Ver proyecto", proyecto["link"])
         st.write("")
