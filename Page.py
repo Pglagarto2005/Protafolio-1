@@ -81,6 +81,16 @@ proyectos = [
         "Descripcion": "Dia algo y lo traduciremos",
         "link": "https://traductor-etbhn56yutwgjgxmvgkcek.streamlit.app/"
     },
+    {
+        "Nombre": "Reconocimiento de texto en imagenes Camara",
+        "Descripcion": "Reconocimiento de texto con camara",
+        "link": "https://yourimagetotext.streamlit.app/"
+    },
+    {
+        "Nombre": "Reconocimiento de texto en imagenes Upload",
+        "Descripcion": "Sube una imagen para saber que dice",
+        "link": "https://translateanimage.streamlit.app/"
+    },
 ]
 
 
