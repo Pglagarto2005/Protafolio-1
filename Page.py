@@ -91,6 +91,16 @@ proyectos = [
         "Descripcion": "Sube una imagen para saber que dice",
         "link": "https://translateanimage.streamlit.app/"
     },
+    {
+        "Nombre": "Vision digital YOLO-V5",
+        "Descripcion": "Reconoce que hay en la imagen",
+        "link": "https://vision-digital-yolov5.streamlit.app/"
+    },
+    {
+        "Nombre": "Piedra papel tijera",
+        "Descripcion": "Juguemos piedra papel o tirjera",
+        "link": "https://piedra-papel-tijera.streamlit.app/"
+    },
 ]
 
 
