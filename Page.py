@@ -101,6 +101,21 @@ proyectos = [
         "Descripcion": "Juguemos piedra papel o tirjera",
         "link": "https://piedra-papel-tijera.streamlit.app/"
     },
+    {
+        "Nombre": "Generador de textos LSTM",
+        "Descripcion": "Lenguaje al estimo chatgpt pero primitivo",
+        "link": "https://nknlstmnlp.streamlit.app/"
+    },
+    {
+        "Nombre": "Lector de PDFs",
+        "Descripcion": "Es como NotebookLM",
+        "link": "https://notebooklmmmt7h2vgid4d3prz73muv4h.streamlit.app/"
+    },
+    {
+        "Nombre": "Interpretar imagenes",
+        "Descripcion": "Sube una imagen y te dire que veo",
+        "link": "https://lookaturimage.streamlit.app/"
+    }
 ]
 
 
