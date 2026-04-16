@@ -115,6 +115,26 @@ proyectos = [
         "Nombre": "Interpretar imagenes",
         "Descripcion": "Sube una imagen y te dire que veo",
         "link": "https://lookaturimage.streamlit.app/"
+    },
+    {
+        "Nombre": "Digitos",
+        "Descripcion": "Dibuja un numero",
+        "link": "https://guessyournumber.streamlit.app/"
+    },
+    {
+        "Nombre": "Paint",
+        "Descripcion": "Tablero para dibujar",
+        "link": "https://drawingbord.streamlit.app/"
+    },
+    {
+        "Nombre": "Guess the drawing",
+        "Descripcion": "Te dire que dibujaste",
+        "link": "https://canvasapi.streamlit.app/"
+    },
+    {
+        "Nombre": "Consejos para dibujar",
+        "Descripcion": "Te dare consejos para mejorar tu dibujo",
+        "link": "https://upmydraw.streamlit.app/"
     }
 ]
 
