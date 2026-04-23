@@ -147,11 +147,6 @@ proyectos = [
         "link": "https://controladormqtt-ixxpfcybpns9na2hq8vsil.streamlit.app/"
     },
     {
-        "Nombre": "Controlador MQTT",
-        "Descripcion": "Control para un servo",
-        "link": "https://controladormqtt-ixxpfcybpns9na2hq8vsil.streamlit.app/"
-    },
-    {
         "Nombre": "Voz MQTT",
         "Descripcion": "Para que el micro te escuche",
         "link": "https://vozmqtt.streamlit.app/"
